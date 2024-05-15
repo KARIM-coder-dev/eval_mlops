@@ -1,0 +1,41 @@
+[2024-05-14T21:00:45.535+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: live_ademe.save_postgresdb manual__2024-05-14T21:00:36.705042+00:00 [queued]>
+[2024-05-14T21:00:45.544+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: live_ademe.save_postgresdb manual__2024-05-14T21:00:36.705042+00:00 [queued]>
+[2024-05-14T21:00:45.545+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-14T21:00:45.559+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): save_postgresdb> on 2024-05-14 21:00:36.705042+00:00
+[2024-05-14T21:00:45.567+0000] {standard_task_runner.py:60} INFO - Started process 168 to run task
+[2024-05-14T21:00:45.573+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'live_ademe', 'save_postgresdb', 'manual__2024-05-14T21:00:36.705042+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/load_data.py', '--cfg-path', '/tmp/tmpy1ptpkrg']
+[2024-05-14T21:00:45.575+0000] {standard_task_runner.py:88} INFO - Job 18: Subtask save_postgresdb
+[2024-05-14T21:00:45.646+0000] {task_command.py:423} INFO - Running <TaskInstance: live_ademe.save_postgresdb manual__2024-05-14T21:00:36.705042+00:00 [running]> on host 0f2797502ce2
+[2024-05-14T21:00:45.729+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='live_ademe' AIRFLOW_CTX_TASK_ID='save_postgresdb' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T21:00:36.705042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-14T21:00:36.705042+00:00'
+[2024-05-14T21:00:45.735+0000] {load_data.py:86} INFO - openning result file
+[2024-05-14T21:00:45.764+0000] {load_data.py:91} INFO - dataframe creation
+[2024-05-14T21:00:45.798+0000] {load_data.py:95} INFO - dataframe creation
+[2024-05-14T21:00:45.802+0000] {load_data.py:98} INFO - ['conso_chauffage_depensier_e_finale', 'emission_ges_ecs', 'type_energie_n_1', 'nom_commune_ban', 'emission_ges_chauffage', 'date_reception_dpe', 'coût_ecs_energie_n_1', 'conso_ecs_e_finale', 'coût_total_5_usages', 'emission_ges_5_usages', 'code_postal_ban', 'conso_eclairage_e_finale', 'coût_refroidissement_depensier', 'date_fin_validite_dpe', 'coordonnee_cartographique_x_ban', 'nombre_niveau_logement', 'emission_ges_refroidissement_depensier', 'type_batiment', 'conso_5_usages_par_m2_e_primaire', 'coût_refroidissement', 'ubat_w_m2_k', 'coût_ecs_depensier', 'coût_chauffage', 'emission_ges_auxiliaires', 'emission_ges_5_usages_par_m2', 'emission_ges_eclairage', 'dpe_geopoint', 'conso_ecs_depensier_e_primaire', 'conso_refroidissement_depensier_e_finale', 'conso_ecs_depensier_e_finale', 'adresse_ban', 'version_dpe', 'date_visite_diagnostiqueur', 'coût_ecs', 'nombre_niveau_immeuble', 'surface_habitable_immeuble', 'coût_eclairage', 'date_etablissement_dpe', 'qualite_isolation_enveloppe', 'emission_ges_chauffage_depensier', 'n_dpe', 'conso_refroidissement_e_finale', 'conso_chauffage_e_primaire', 'appartement_non_visite_0_1', 'adresse_brute', 'conso_eclairage_e_primaire', 'conso_ecs_e_primaire', 'qualite_isolation_menuiseries', 'qualite_isolation_murs', 'emission_ges_5_usages_energie_n_1', 'etiquette_ges', 'conso_5_usages_e_finale_energie_n_1', 'statut_geocodage', 'conso_auxiliaires_e_primaire', 'nombre_appartement', 'conso_auxiliaires_e_finale', 'conso_chauffage_e_finale', 'coût_chauffage_depensier', 'modele_dpe', 'etiquette_dpe', 'conso_refroidissement_depensier_e_primaire', 'nom_commune_brut', 'conso_5_usages_e_finale', 'n_departement_ban', 'conso_refroidissement_e_primaire', 'coût_chauffage_energie_n_1', 'dpe_i', 'methode_application_dpe', 'n_region_ban', 'qualite_isolation_plancher_bas', 'conso_5_usages_m2_e_finale', 'hauteur_sous-plafond', 'identifiant_ban', 'surface_habitable_logement', 'code_postal_brut', 'coût_auxiliaires', 'coordonnee_cartographique_y_ban', 'dpe_rand', 'conso_chauffage_depensier_e_primaire', 'emission_ges_ecs_depensier', 'code_insee_ban', 'score_ban', 'emission_ges_refroidissement', 'conso_5_usages_e_primaire', 'dpe_score', 'dpe_id', 'n_voie_ban', 'invariant_fiscal_logement', 'nom_rue_ban', 'zone_climatique_', 'categorie_enr', 'n_etage_appartement', 'classe_altitude', 'n_dpe_remplace', 'complement_d_adresse_logement', 'qualite_isolation_plancher_haut_comble_amenage', 'presence_brasseur_air_0_1', 'protection_solaire_exterieure_0_1', 'logement_traversant_0_1', 'isolation_toiture_0_1', 'nom_residence', 'indicateur_confort_ete', 'type_installation_ecs_general', 'type_installation_chauffage', 'typologie_logement', 'position_logement_dans_immeuble', 'type_energie_principale_chauffage', 'type_energie_n_2', 'coût_ecs_energie_n_2', 'emission_ges_5_usages_energie_n_2', 'coût_chauffage_energie_n_2']
+[2024-05-14T21:00:45.847+0000] {load_data.py:100} INFO - dataframe cleaning
+[2024-05-14T21:00:45.847+0000] {load_data.py:103} INFO - dataframe storing
+[2024-05-14T21:00:45.950+0000] {warnings.py:109} WARNING - /opt/***/dags/load_data.py:104: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  data['payload'] = data.apply(lambda row: json.dumps(row.to_dict()), axis=1)
+
+[2024-05-14T21:00:46.044+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load_data.py", line 108, in save_postgresdb
+    db = Database()
+  File "/opt/airflow/dags/db_init.py", line 23, in __init__
+    self.connection = psycopg2.connect(**db_params)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "mlopsadmin.postgres.database.azure.com" (20.231.213.12), port 5432 failed: fe_sendauth: no password supplied
+
+[2024-05-14T21:00:46.053+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=live_ademe, task_id=save_postgresdb, execution_date=20240514T210036, start_date=20240514T210045, end_date=20240514T210046
+[2024-05-14T21:00:46.070+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 18 for task save_postgresdb (connection to server at "mlopsadmin.postgres.database.azure.com" (20.231.213.12), port 5432 failed: fe_sendauth: no password supplied
+; 168)
+[2024-05-14T21:00:46.110+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-14T21:00:46.128+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

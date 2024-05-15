@@ -1,0 +1,42 @@
+[2024-05-15T20:13:00.372+0000] {processor.py:161} INFO - Started process (PID=2426) to work on /opt/airflow/dags/transform_data.py
+[2024-05-15T20:13:00.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-05-15T20:13:00.374+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:00.374+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:13:00.886+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:13:01.042+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:01.041+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:13:01.079+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:01.078+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:12:00+00:00, run_after=2024-05-15 20:15:00+00:00
+[2024-05-15T20:13:01.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_data.py took 0.747 seconds
+[2024-05-15T20:13:31.392+0000] {processor.py:161} INFO - Started process (PID=2488) to work on /opt/airflow/dags/transform_data.py
+[2024-05-15T20:13:31.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-05-15T20:13:31.395+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:31.395+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:13:32.023+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:13:32.040+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:32.039+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:13:32.066+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:32.065+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:12:00+00:00, run_after=2024-05-15 20:15:00+00:00
+[2024-05-15T20:13:32.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_data.py took 0.700 seconds
+[2024-05-15T20:14:02.351+0000] {processor.py:161} INFO - Started process (PID=2550) to work on /opt/airflow/dags/transform_data.py
+[2024-05-15T20:14:02.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-05-15T20:14:02.356+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:02.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:14:02.926+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:14:02.945+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:02.944+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:14:02.972+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:02.971+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:12:00+00:00, run_after=2024-05-15 20:15:00+00:00
+[2024-05-15T20:14:02.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_data.py took 0.646 seconds
+[2024-05-15T20:14:33.217+0000] {processor.py:161} INFO - Started process (PID=2614) to work on /opt/airflow/dags/transform_data.py
+[2024-05-15T20:14:33.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-05-15T20:14:33.224+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:33.223+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:14:34.014+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:14:34.039+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:34.038+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:14:34.077+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:34.077+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:12:00+00:00, run_after=2024-05-15 20:15:00+00:00
+[2024-05-15T20:14:34.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_data.py took 0.906 seconds
+[2024-05-15T20:15:04.320+0000] {processor.py:161} INFO - Started process (PID=2676) to work on /opt/airflow/dags/transform_data.py
+[2024-05-15T20:15:04.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-05-15T20:15:04.323+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:04.322+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:15:04.795+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:15:04.812+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:04.812+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:15:04.836+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:04.836+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:12:00+00:00, run_after=2024-05-15 20:15:00+00:00
+[2024-05-15T20:15:04.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_data.py took 0.542 seconds
+[2024-05-15T20:15:35.070+0000] {processor.py:161} INFO - Started process (PID=2738) to work on /opt/airflow/dags/transform_data.py
+[2024-05-15T20:15:35.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-05-15T20:15:35.072+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:35.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:15:35.553+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-05-15T20:15:35.571+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:35.571+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:15:35.597+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:35.597+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:15:00+00:00, run_after=2024-05-15 20:18:00+00:00
+[2024-05-15T20:15:35.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_data.py took 0.565 seconds

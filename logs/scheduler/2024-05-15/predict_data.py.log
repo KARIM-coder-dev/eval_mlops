@@ -1,0 +1,681 @@
+[2024-05-15T11:25:23.119+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:25:23.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:25:23.154+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:23.154+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:25:33.257+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:25:33.258+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:25:33.258+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:25:33.350+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:33.348+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387b2e040>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:25:37.364+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:37.364+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387b2e550>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:25:45.388+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:45.388+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387b2e3d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:25:53.180+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:53.180+0000] {timeout.py:68} ERROR - Process timed out, PID: 33
+[2024-05-15T11:26:23.881+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:26:23.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:26:23.883+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:23.883+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:26:25.019+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:26:25.019+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:26:25.020+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:26:25.061+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:25.061+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38799e190>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:26:29.087+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:29.087+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387912cd0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:26:37.120+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:37.120+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387912e50>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:26:53.152+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:53.152+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387912fa0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:26:53.885+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:53.885+0000] {timeout.py:68} ERROR - Process timed out, PID: 153
+[2024-05-15T11:27:24.353+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:27:24.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:27:24.355+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:24.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:27:25.491+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:27:25.491+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:27:25.491+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:27:25.524+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:25.523+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387913df0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:27:29.541+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:29.541+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38791da00>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:27:37.580+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:37.580+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38791d6d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:27:53.608+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:53.608+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38791d580>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:27:54.358+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:54.357+0000] {timeout.py:68} ERROR - Process timed out, PID: 274
+[2024-05-15T11:28:24.665+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:28:24.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:28:24.667+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:24.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:28:25.797+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:28:25.798+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:28:25.798+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:28:25.833+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:25.832+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878f4760>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:28:29.847+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:29.847+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3879258b0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:28:37.868+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:37.868+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387925850>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:28:53.901+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:53.901+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387907df0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:28:54.671+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:54.670+0000] {timeout.py:68} ERROR - Process timed out, PID: 395
+[2024-05-15T11:29:24.959+0000] {processor.py:161} INFO - Started process (PID=515) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:29:24.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:29:24.961+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:24.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:29:26.081+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:29:26.082+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:29:26.082+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:29:26.116+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:26.116+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878f3f40>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:29:30.128+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:30.128+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387923910>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:29:38.148+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:38.148+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387923820>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:29:54.172+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:54.172+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387906d60>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:29:54.964+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:54.963+0000] {timeout.py:68} ERROR - Process timed out, PID: 515
+[2024-05-15T11:30:25.317+0000] {processor.py:161} INFO - Started process (PID=636) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:30:25.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:30:25.319+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:25.319+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:30:27.495+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:30:27.495+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:30:27.495+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:30:27.559+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:27.559+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38794ad30>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:30:31.574+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:31.573+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387913b50>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:30:39.590+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:39.589+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387913d30>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:30:55.322+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:55.322+0000] {timeout.py:68} ERROR - Process timed out, PID: 636
+[2024-05-15T11:31:25.736+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:31:25.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:31:25.738+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:25.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:31:26.847+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:31:26.847+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:31:26.847+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:31:26.880+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:26.880+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878f9d90>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:31:30.888+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:30.888+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38791e670>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:31:38.913+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:38.913+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38791e640>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:31:54.946+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:54.945+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38791e490>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:31:55.741+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:55.740+0000] {timeout.py:68} ERROR - Process timed out, PID: 756
+[2024-05-15T11:32:25.794+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:32:25.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:32:25.796+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:25.796+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:32:26.907+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:32:26.907+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:32:26.907+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:32:26.942+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:26.942+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387917130>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:32:30.949+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:30.948+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878c09d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:32:38.984+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:38.984+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387955af0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:32:55.008+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:55.008+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387917730>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:32:55.798+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:55.798+0000] {timeout.py:68} ERROR - Process timed out, PID: 878
+[2024-05-15T11:33:26.203+0000] {processor.py:161} INFO - Started process (PID=997) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:33:26.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:33:26.205+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:26.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:33:27.533+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:33:27.533+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:33:27.533+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:33:27.571+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:27.570+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38790f820>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:33:31.589+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:31.588+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878b98e0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:33:39.615+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:39.614+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387f2edf0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:33:55.645+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:55.644+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38790ff70>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:33:56.208+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:56.208+0000] {timeout.py:68} ERROR - Process timed out, PID: 997
+[2024-05-15T11:34:26.918+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:34:26.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:34:26.920+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:26.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:34:28.129+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:34:28.130+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:34:28.131+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:34:28.184+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:28.183+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38790fac0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:34:32.202+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:32.201+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878b58b0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:34:40.218+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:40.218+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387f2fd30>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:34:56.241+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:56.241+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38790fdf0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:34:56.922+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:56.922+0000] {timeout.py:68} ERROR - Process timed out, PID: 1118
+[2024-05-15T11:35:27.802+0000] {processor.py:161} INFO - Started process (PID=1240) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:35:27.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:35:27.977+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:35:27.976+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:35:29.119+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:35:29.118+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/predict_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict_data.py", line 23, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 8
+    """Classe pour interagir avec une base de données PostgreSQL."""
+    ^
+IndentationError: expected an indented block
+[2024-05-15T11:35:29.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:35:29.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.431 seconds
+[2024-05-15T11:36:00.276+0000] {processor.py:161} INFO - Started process (PID=1302) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:36:00.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:36:00.279+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:00.278+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:36:01.769+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:01.768+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/predict_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict_data.py", line 23, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 8
+    """Classe pour interagir avec une base de données PostgreSQL."""
+    ^
+IndentationError: expected an indented block
+[2024-05-15T11:36:01.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:36:01.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.525 seconds
+[2024-05-15T11:36:32.770+0000] {processor.py:161} INFO - Started process (PID=1366) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:36:32.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:36:32.793+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:32.792+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:36:40.167+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:40.165+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/predict_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict_data.py", line 23, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:36:40.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:36:40.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 7.459 seconds
+[2024-05-15T11:37:10.603+0000] {processor.py:161} INFO - Started process (PID=1428) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:37:10.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:37:10.606+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:10.605+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:37:14.013+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:14.012+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/predict_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict_data.py", line 23, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:37:14.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:37:14.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 3.442 seconds
+[2024-05-15T11:37:44.513+0000] {processor.py:161} INFO - Started process (PID=1493) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:37:44.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:37:44.516+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:44.516+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:37:47.600+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:47.599+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/predict_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict_data.py", line 23, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:37:47.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:37:47.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 3.130 seconds
+[2024-05-15T11:38:17.847+0000] {processor.py:161} INFO - Started process (PID=1555) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:38:17.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:38:17.849+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:17.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:38:20.407+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:20.405+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/predict_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict_data.py", line 23, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:38:20.470+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:38:20.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.660 seconds
+[2024-05-15T11:38:51.023+0000] {processor.py:161} INFO - Started process (PID=1619) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:38:51.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:38:51.028+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:51.028+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:38:55.817+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:38:55.817+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:38:55.818+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:38:56.161+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:56.160+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387950310>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:39:00.201+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:00.200+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387950430>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:39:08.236+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:08.236+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38792b460>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:39:21.033+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:21.033+0000] {timeout.py:68} ERROR - Process timed out, PID: 1619
+[2024-05-15T11:39:51.968+0000] {processor.py:161} INFO - Started process (PID=1745) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:39:51.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:39:51.970+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:51.970+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:39:53.386+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:39:53.386+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:39:53.387+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:39:53.448+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:53.448+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3879060a0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:39:57.460+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:57.460+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387f3af10>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:40:05.481+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:05.481+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38795b6d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:40:21.505+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:21.504+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb38795be20>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:40:21.973+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:21.972+0000] {timeout.py:68} ERROR - Process timed out, PID: 1745
+[2024-05-15T11:40:52.465+0000] {processor.py:161} INFO - Started process (PID=1867) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:40:52.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:40:52.467+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:52.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:40:53.906+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:40:53.906+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:40:53.906+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:40:53.966+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:53.965+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387917a30>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:40:57.978+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:57.978+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387909f40>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:41:06.001+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:06.000+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878e92b0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:41:22.024+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:22.024+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878e9ee0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:41:22.470+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:22.469+0000] {timeout.py:68} ERROR - Process timed out, PID: 1867
+[2024-05-15T11:41:53.038+0000] {processor.py:161} INFO - Started process (PID=1988) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:41:53.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:41:53.040+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:53.040+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:41:54.663+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:41:54.663+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:41:54.663+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:41:54.703+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:54.702+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387f3af10>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:41:58.714+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:58.713+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387909ee0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:42:06.742+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:06.742+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387909a90>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:42:22.772+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:22.772+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3879168b0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:42:23.043+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:23.043+0000] {timeout.py:68} ERROR - Process timed out, PID: 1988
+[2024-05-15T11:42:53.382+0000] {processor.py:161} INFO - Started process (PID=2110) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:42:53.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:42:53.384+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:53.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:42:55.117+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:42:55.118+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:42:55.118+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:42:55.173+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:55.173+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3879196d0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:42:59.208+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:59.208+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878f1d00>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:43:07.236+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:07.236+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878f1c40>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:43:23.264+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:23.264+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3878e3160>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:43:23.386+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:23.385+0000] {timeout.py:68} ERROR - Process timed out, PID: 2110
+[2024-05-15T11:43:53.472+0000] {processor.py:161} INFO - Started process (PID=2232) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T11:43:53.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T11:43:53.473+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:53.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T11:43:54.684+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:43:54.685+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T11:43:54.685+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T11:43:54.718+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:54.718+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3879569a0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:43:58.732+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:58.732+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387915400>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:44:06.751+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:44:06.750+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387915ca0>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:44:22.777+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:44:22.777+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb387915a90>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T11:44:23.476+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:44:23.475+0000] {timeout.py:68} ERROR - Process timed out, PID: 2232
+[2024-05-15T19:52:59.308+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:52:59.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:52:59.359+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:52:59.358+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:53:10.495+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:53:10.496+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:53:10.496+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:53:10.648+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:10.648+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38c83c10>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:53:14.663+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:14.662+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38c83160>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:53:22.682+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:22.681+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38cf6340>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:53:29.380+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:29.379+0000] {timeout.py:68} ERROR - Process timed out, PID: 34
+[2024-05-15T19:53:59.581+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:53:59.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:53:59.585+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:59.585+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:54:01.237+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:54:01.237+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:54:01.238+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:54:01.305+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:01.304+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a41790>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:54:05.319+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:05.318+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a90f10>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:54:13.335+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:13.334+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a61310>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:54:29.359+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:29.358+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a61760>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:54:29.588+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:29.588+0000] {timeout.py:68} ERROR - Process timed out, PID: 154
+[2024-05-15T19:55:00.136+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:55:00.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:55:00.139+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:00.139+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:55:01.498+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:55:01.498+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:55:01.499+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:55:01.541+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:01.541+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a42a00>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:55:05.551+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:05.550+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a42940>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:55:13.567+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:13.566+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a62460>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:55:29.595+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:29.594+0000] {connectionpool.py:824} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d38a62a60>: Failed to establish a new connection: [Errno -2] Name or service not known')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=dpe_training
+[2024-05-15T19:55:30.142+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:30.142+0000] {timeout.py:68} ERROR - Process timed out, PID: 276
+[2024-05-15T19:56:00.829+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:56:00.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:56:00.834+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:00.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:56:04.207+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:56:04.207+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:56:04.208+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:56:12.220+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:56:12.428+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:12.427+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:56:12.508+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:12.507+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:56:12.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 11.792 seconds
+[2024-05-15T19:56:42.835+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:56:42.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:56:42.840+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:42.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:56:44.392+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:56:44.393+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:56:44.393+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:56:44.981+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:56:45.006+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:45.005+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:56:45.041+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:45.040+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:56:45.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.241 seconds
+[2024-05-15T19:57:15.409+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:57:15.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:57:15.417+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:15.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:57:19.181+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:57:19.182+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:57:19.190+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:57:20.228+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:57:20.274+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:20.273+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:57:20.332+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:20.330+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:57:20.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 4.975 seconds
+[2024-05-15T19:57:50.613+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:57:50.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:57:50.619+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:50.618+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:57:52.646+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:57:52.647+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:57:52.647+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:57:53.152+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:57:53.170+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:53.170+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:57:53.191+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:53.191+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:57:53.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.604 seconds
+[2024-05-15T19:58:23.549+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:58:23.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:58:23.560+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:23.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:58:24.970+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:58:24.970+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:58:24.970+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:58:25.333+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:58:25.350+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:25.350+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:58:25.371+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:25.371+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:58:25.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.852 seconds
+[2024-05-15T19:58:55.497+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:58:55.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:58:55.501+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:55.501+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:58:57.898+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:58:57.899+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:58:57.899+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:58:58.266+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:58:58.284+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:58.283+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:58:58.305+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:58.304+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:58:58.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.849 seconds
+[2024-05-15T19:59:29.174+0000] {processor.py:161} INFO - Started process (PID=816) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T19:59:29.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T19:59:29.179+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:29.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:59:31.589+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:59:31.590+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T19:59:31.590+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T19:59:32.073+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T19:59:32.090+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:32.090+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:59:32.111+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:32.111+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T19:59:32.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.963 seconds
+[2024-05-15T20:00:02.984+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:00:02.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:00:03.010+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:03.005+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:00:06.803+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:00:06.804+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:00:06.805+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:00:07.467+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:00:07.491+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:07.490+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:00:07.523+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:07.522+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:00:07.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 4.583 seconds
+[2024-05-15T20:00:37.735+0000] {processor.py:161} INFO - Started process (PID=945) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:00:37.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:00:37.750+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:37.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:00:39.905+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:00:39.905+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:00:39.906+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:00:40.502+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:00:40.526+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:40.526+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:00:40.559+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:40.558+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:00:40.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.862 seconds
+[2024-05-15T20:01:11.384+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:01:11.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:01:11.388+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:11.388+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:01:13.050+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:01:13.051+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:01:13.051+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:01:13.650+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:01:13.675+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:13.674+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:01:13.706+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:13.705+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:01:13.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.355 seconds
+[2024-05-15T20:01:44.137+0000] {processor.py:161} INFO - Started process (PID=1071) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:01:44.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:01:44.144+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:44.143+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:01:45.494+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:01:45.494+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:01:45.495+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:01:46.093+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:01:46.118+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:46.117+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:01:46.155+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:46.155+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:01:46.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.051 seconds
+[2024-05-15T20:02:16.381+0000] {processor.py:161} INFO - Started process (PID=1133) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:02:16.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:02:16.390+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:16.389+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:02:18.278+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:02:18.278+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:02:18.278+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:02:18.862+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:02:18.885+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:18.885+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:02:18.915+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:18.914+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:02:18.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.569 seconds
+[2024-05-15T20:02:49.464+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:02:49.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:02:49.468+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:49.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:02:52.380+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:02:52.381+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:02:52.381+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:02:52.985+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:02:53.029+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:53.028+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:02:53.103+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:53.103+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:02:53.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 3.708 seconds
+[2024-05-15T20:03:23.267+0000] {processor.py:161} INFO - Started process (PID=1267) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:03:23.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:03:23.272+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:23.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:03:26.416+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:03:26.416+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:03:26.416+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:03:26.946+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:03:27.013+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:27.013+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:03:27.099+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:27.099+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:03:27.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 3.886 seconds
+[2024-05-15T20:03:57.595+0000] {processor.py:161} INFO - Started process (PID=1339) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:03:57.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:03:57.605+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:57.605+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:01.294+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:04:01.302+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:04:01.303+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:04:02.002+0000] {processor.py:840} INFO - DAG(s) 'ademe_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:02.034+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:02.033+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:04:02.067+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:02.066+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:04:02.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 4.547 seconds
+[2024-05-15T20:04:14.126+0000] {processor.py:161} INFO - Started process (PID=1379) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:14.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:04:14.129+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:14.129+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:15.514+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:04:15.514+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:04:15.514+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:04:15.726+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:15.827+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:15.826+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:evalmlops_models
+[2024-05-15T20:04:15.839+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:15.839+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:evalmlops_models
+[2024-05-15T20:04:15.848+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:15.847+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:evalmlops_models
+[2024-05-15T20:04:15.848+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:15.848+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:04:15.861+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:15.859+0000] {dag.py:3069} INFO - Creating ORM DAG for evalmlops_models
+[2024-05-15T20:04:15.871+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:15.870+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-14 00:00:00+00:00, run_after=2024-05-15 00:00:00+00:00
+[2024-05-15T20:04:15.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.769 seconds
+[2024-05-15T20:04:46.394+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:46.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:04:46.399+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:46.399+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:47.813+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:04:47.814+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:04:47.814+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:04:48.030+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:04:48.053+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:48.052+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:04:48.078+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:48.077+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-14 00:00:00+00:00, run_after=2024-05-15 00:00:00+00:00
+[2024-05-15T20:04:48.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.710 seconds
+[2024-05-15T20:05:18.284+0000] {processor.py:161} INFO - Started process (PID=1503) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:05:18.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:05:18.287+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:18.286+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:05:19.908+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:05:19.909+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:05:19.909+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:05:20.187+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:05:20.206+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:20.205+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:05:20.228+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:20.227+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-14 00:00:00+00:00, run_after=2024-05-15 00:00:00+00:00
+[2024-05-15T20:05:20.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.971 seconds
+[2024-05-15T20:05:50.970+0000] {processor.py:161} INFO - Started process (PID=1565) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:05:50.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:05:50.973+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:50.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:05:52.793+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:05:52.794+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:05:52.794+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:05:53.116+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:05:53.134+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:53.133+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:05:53.156+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:53.155+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-14 00:00:00+00:00, run_after=2024-05-15 00:00:00+00:00
+[2024-05-15T20:05:53.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.215 seconds
+[2024-05-15T20:06:23.304+0000] {processor.py:161} INFO - Started process (PID=1634) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:06:23.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:06:23.307+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:23.307+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:06:24.827+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:06:24.827+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:06:24.827+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:06:25.045+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:06:25.063+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:25.063+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:06:25.089+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:25.088+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-14 00:00:00+00:00, run_after=2024-05-15 00:00:00+00:00
+[2024-05-15T20:06:25.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.849 seconds
+[2024-05-15T20:06:55.317+0000] {processor.py:161} INFO - Started process (PID=1698) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:06:55.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:06:55.336+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:55.336+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:06:58.625+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:06:58.634+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:06:58.635+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:06:59.300+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:06:59.336+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:59.335+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:06:59.373+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:59.372+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-14 00:00:00+00:00, run_after=2024-05-15 00:00:00+00:00
+[2024-05-15T20:06:59.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 4.119 seconds
+[2024-05-15T20:07:30.111+0000] {processor.py:161} INFO - Started process (PID=1762) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:07:30.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:07:30.120+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:07:30.119+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:07:35.026+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:07:35.027+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:07:35.027+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:07:35.855+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:07:35.923+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:07:35.923+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:07:36.022+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:07:36.018+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:07:36.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 5.991 seconds
+[2024-05-15T20:08:06.366+0000] {processor.py:161} INFO - Started process (PID=1836) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:08:06.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:08:06.377+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:06.376+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:08:10.843+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:08:10.844+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:08:10.844+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:08:11.313+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:08:11.338+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:11.338+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:08:11.371+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:11.370+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:08:11.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 5.037 seconds
+[2024-05-15T20:08:41.721+0000] {processor.py:161} INFO - Started process (PID=1910) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:08:41.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:08:41.725+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:41.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:08:43.497+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:08:43.498+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:08:43.498+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:08:43.718+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:08:43.742+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:43.741+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:08:43.775+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:43.775+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:08:43.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.118 seconds
+[2024-05-15T20:09:14.272+0000] {processor.py:161} INFO - Started process (PID=1980) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:09:14.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:09:14.276+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:14.276+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:09:17.060+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:09:17.060+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:09:17.061+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:09:17.425+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:09:17.449+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:17.448+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:09:17.481+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:17.481+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:09:17.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 3.252 seconds
+[2024-05-15T20:09:47.575+0000] {processor.py:161} INFO - Started process (PID=2052) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:09:47.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:09:47.578+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:47.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:09:49.341+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:09:49.342+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:09:49.342+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:09:49.600+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:09:49.618+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:49.617+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:09:49.640+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:49.640+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:09:49.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.093 seconds
+[2024-05-15T20:10:20.247+0000] {processor.py:161} INFO - Started process (PID=2120) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:10:20.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:10:20.250+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:20.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:10:21.749+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:10:21.750+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:10:21.750+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:10:21.960+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:10:21.978+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:21.978+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:10:22.001+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:22.000+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:10:22.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.778 seconds
+[2024-05-15T20:10:52.208+0000] {processor.py:161} INFO - Started process (PID=2180) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:10:52.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:10:52.211+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:52.211+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:10:54.393+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:10:54.394+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:10:54.394+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:10:54.602+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:10:54.620+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:54.619+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:10:54.641+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:54.640+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:10:54.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.458 seconds
+[2024-05-15T20:11:24.718+0000] {processor.py:161} INFO - Started process (PID=2247) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:11:24.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:11:24.721+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:11:24.721+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:11:27.082+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:11:27.083+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:11:27.083+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:11:27.437+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:11:27.461+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:11:27.461+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:11:27.494+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:11:27.493+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:11:27.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.808 seconds
+[2024-05-15T20:11:57.643+0000] {processor.py:161} INFO - Started process (PID=2306) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:11:57.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:11:57.645+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:11:57.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:11:59.290+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:11:59.291+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:11:59.291+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:11:59.631+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:11:59.654+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:11:59.653+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:11:59.685+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:11:59.684+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:11:59.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.286 seconds
+[2024-05-15T20:12:30.326+0000] {processor.py:161} INFO - Started process (PID=2366) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:12:30.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:12:30.329+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:12:30.329+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:12:31.847+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:12:31.848+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:12:31.848+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:12:32.057+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:12:32.075+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:12:32.075+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:12:32.096+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:12:32.096+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:12:32.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.795 seconds
+[2024-05-15T20:13:02.154+0000] {processor.py:161} INFO - Started process (PID=2430) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:13:02.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:13:02.156+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:02.155+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:13:03.531+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:13:03.531+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:13:03.532+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:13:03.753+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:13:03.771+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:03.770+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:13:03.793+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:03.793+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:13:03.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.663 seconds
+[2024-05-15T20:13:33.863+0000] {processor.py:161} INFO - Started process (PID=2492) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:13:33.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:13:33.866+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:33.865+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:13:35.247+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:13:35.248+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:13:35.248+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:13:35.458+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:13:35.476+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:35.475+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:13:35.498+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:13:35.498+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:13:35.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.659 seconds
+[2024-05-15T20:14:05.746+0000] {processor.py:161} INFO - Started process (PID=2554) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:14:05.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:14:05.749+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:05.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:14:07.158+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:14:07.159+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:14:07.159+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:14:07.372+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:14:07.390+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:07.390+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:14:07.413+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:07.413+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:14:07.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 1.691 seconds
+[2024-05-15T20:14:38.169+0000] {processor.py:161} INFO - Started process (PID=2616) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:14:38.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:14:38.171+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:38.171+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:14:39.828+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:14:39.829+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:14:39.830+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:14:40.150+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:14:40.168+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:40.168+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:14:40.191+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:14:40.191+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:14:40.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.048 seconds
+[2024-05-15T20:15:10.927+0000] {processor.py:161} INFO - Started process (PID=2679) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:15:10.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:15:10.930+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:10.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:15:12.496+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:15:12.496+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:15:12.497+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:15:12.792+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:15:12.811+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:12.811+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:15:12.832+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:12.832+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:15:12.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.011 seconds
+[2024-05-15T20:15:43.525+0000] {processor.py:161} INFO - Started process (PID=2742) to work on /opt/airflow/dags/predict_data.py
+[2024-05-15T20:15:43.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict_data.py for tasks to queue
+[2024-05-15T20:15:43.528+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:43.527+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:15:45.321+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:15:45.322+0000] {logging_mixin.py:188} INFO - mlflow set experiment
+[2024-05-15T20:15:45.322+0000] {logging_mixin.py:188} INFO - --------------------------------------------------------------------------------
+[2024-05-15T20:15:45.615+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_models' retrieved from /opt/airflow/dags/predict_data.py
+[2024-05-15T20:15:45.641+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:45.640+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:15:45.673+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:15:45.672+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_models to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-05-15T20:15:45.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict_data.py took 2.195 seconds

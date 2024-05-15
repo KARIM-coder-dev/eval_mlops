@@ -1,0 +1,571 @@
+[2024-05-15T11:25:23.178+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:25:23.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:25:23.205+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:23.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:25:26.459+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:25:26.569+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:26.568+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:25:26.636+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:26.636+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:24:00+00:00, run_after=2024-05-15 11:27:00+00:00
+[2024-05-15T11:25:26.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 3.573 seconds
+[2024-05-15T11:25:57.303+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:25:57.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:25:57.307+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:57.306+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:25:57.827+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:25:57.851+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:57.851+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:25:57.891+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:25:57.891+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:24:00+00:00, run_after=2024-05-15 11:27:00+00:00
+[2024-05-15T11:25:57.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.617 seconds
+[2024-05-15T11:26:28.069+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:26:28.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:26:28.072+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:28.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:26:28.500+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:26:28.543+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:28.543+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:26:28.591+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:28.591+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:24:00+00:00, run_after=2024-05-15 11:27:00+00:00
+[2024-05-15T11:26:28.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.551 seconds
+[2024-05-15T11:26:58.913+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:26:58.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:26:58.915+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:58.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:26:59.347+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:26:59.373+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:59.373+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:26:59.412+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:26:59.412+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:24:00+00:00, run_after=2024-05-15 11:27:00+00:00
+[2024-05-15T11:26:59.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.544 seconds
+[2024-05-15T11:27:29.697+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:27:29.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:27:29.699+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:29.699+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:27:29.965+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:27:29.985+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:29.985+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:27:30.017+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:27:30.017+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:27:00+00:00, run_after=2024-05-15 11:30:00+00:00
+[2024-05-15T11:27:30.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.344 seconds
+[2024-05-15T11:28:00.425+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:28:00.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:28:00.427+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:00.426+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:28:00.705+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:28:00.737+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:00.737+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:28:00.778+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:00.778+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:27:00+00:00, run_after=2024-05-15 11:30:00+00:00
+[2024-05-15T11:28:00.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.384 seconds
+[2024-05-15T11:28:31.162+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:28:31.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:28:31.167+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:31.167+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:28:31.430+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:28:31.454+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:31.453+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:28:31.478+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:28:31.478+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:27:00+00:00, run_after=2024-05-15 11:30:00+00:00
+[2024-05-15T11:28:31.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.338 seconds
+[2024-05-15T11:29:01.746+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:29:01.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:29:01.748+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:01.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:29:02.025+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:29:02.044+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:02.044+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:29:02.195+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:02.195+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:27:00+00:00, run_after=2024-05-15 11:30:00+00:00
+[2024-05-15T11:29:02.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.470 seconds
+[2024-05-15T11:29:32.548+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:29:32.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:29:32.550+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:32.549+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:29:32.814+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:29:32.963+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:32.962+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:29:32.985+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:29:32.985+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:27:00+00:00, run_after=2024-05-15 11:30:00+00:00
+[2024-05-15T11:29:33.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.458 seconds
+[2024-05-15T11:30:03.095+0000] {processor.py:161} INFO - Started process (PID=576) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:30:03.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:30:03.097+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:03.097+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:30:03.366+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:30:03.530+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:03.530+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:30:03.553+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:03.553+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:30:00+00:00, run_after=2024-05-15 11:33:00+00:00
+[2024-05-15T11:30:03.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.479 seconds
+[2024-05-15T11:30:34.463+0000] {processor.py:161} INFO - Started process (PID=639) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:30:34.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:30:34.465+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:34.464+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:30:34.881+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:30:34.896+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:34.896+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:30:34.918+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:30:34.918+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:30:00+00:00, run_after=2024-05-15 11:33:00+00:00
+[2024-05-15T11:30:34.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.479 seconds
+[2024-05-15T11:31:05.309+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:31:05.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:31:05.311+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:05.310+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:31:05.734+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:31:05.749+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:05.749+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:31:05.772+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:05.771+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:30:00+00:00, run_after=2024-05-15 11:33:00+00:00
+[2024-05-15T11:31:05.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.490 seconds
+[2024-05-15T11:31:36.217+0000] {processor.py:161} INFO - Started process (PID=759) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:31:36.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:31:36.218+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:36.218+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:31:36.618+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:31:36.634+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:36.633+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:31:36.655+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:31:36.655+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:30:00+00:00, run_after=2024-05-15 11:33:00+00:00
+[2024-05-15T11:31:36.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.461 seconds
+[2024-05-15T11:32:06.826+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:32:07.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:32:07.201+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:07.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:32:07.753+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:32:07.768+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:07.768+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:32:07.790+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:07.790+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:30:00+00:00, run_after=2024-05-15 11:33:00+00:00
+[2024-05-15T11:32:07.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.986 seconds
+[2024-05-15T11:32:37.919+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:32:37.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:32:37.928+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:37.927+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:32:38.548+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:32:38.571+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:38.570+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:32:38.607+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:32:38.607+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:30:00+00:00, run_after=2024-05-15 11:33:00+00:00
+[2024-05-15T11:32:38.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.717 seconds
+[2024-05-15T11:33:09.282+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:33:09.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:33:09.284+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:09.284+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:33:09.924+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:33:09.946+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:09.945+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:33:09.979+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:09.979+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:33:00+00:00, run_after=2024-05-15 11:36:00+00:00
+[2024-05-15T11:33:09.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.723 seconds
+[2024-05-15T11:33:40.517+0000] {processor.py:161} INFO - Started process (PID=1005) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:33:40.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:33:40.519+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:40.519+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:33:41.147+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:33:41.169+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:41.168+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:33:41.205+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:33:41.205+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:33:00+00:00, run_after=2024-05-15 11:36:00+00:00
+[2024-05-15T11:33:41.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.716 seconds
+[2024-05-15T11:34:11.792+0000] {processor.py:161} INFO - Started process (PID=1064) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:34:11.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:34:11.796+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:11.795+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:34:12.282+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:34:12.298+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:12.297+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:34:12.325+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:12.325+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:33:00+00:00, run_after=2024-05-15 11:36:00+00:00
+[2024-05-15T11:34:12.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.556 seconds
+[2024-05-15T11:34:43.236+0000] {processor.py:161} INFO - Started process (PID=1127) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:34:43.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:34:43.238+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:43.238+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:34:43.648+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:34:43.663+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:43.663+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:34:43.686+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:34:43.686+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:33:00+00:00, run_after=2024-05-15 11:36:00+00:00
+[2024-05-15T11:34:43.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.473 seconds
+[2024-05-15T11:35:14.213+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:35:14.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:35:14.215+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:35:14.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:35:15.115+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:35:15.114+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 8
+    """Classe pour interagir avec une base de données PostgreSQL."""
+    ^
+IndentationError: expected an indented block
+[2024-05-15T11:35:15.128+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:35:15.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.218 seconds
+[2024-05-15T11:35:45.616+0000] {processor.py:161} INFO - Started process (PID=1250) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:35:45.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:35:45.625+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:35:45.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:35:46.073+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:35:46.072+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 8
+    """Classe pour interagir avec une base de données PostgreSQL."""
+    ^
+IndentationError: expected an indented block
+[2024-05-15T11:35:46.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:35:46.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.017 seconds
+[2024-05-15T11:36:17.081+0000] {processor.py:161} INFO - Started process (PID=1312) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:36:17.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:36:17.083+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:17.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:36:17.675+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:17.673+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 8
+    """Classe pour interagir avec une base de données PostgreSQL."""
+    ^
+IndentationError: expected an indented block
+[2024-05-15T11:36:17.675+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:36:17.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.621 seconds
+[2024-05-15T11:36:47.785+0000] {processor.py:161} INFO - Started process (PID=1374) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:36:47.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:36:47.788+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:47.787+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:36:48.408+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:36:48.406+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:36:48.409+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:36:48.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.648 seconds
+[2024-05-15T11:37:19.811+0000] {processor.py:161} INFO - Started process (PID=1439) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:37:19.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:37:19.814+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:19.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:37:20.518+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:20.517+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:37:20.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:37:20.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.727 seconds
+[2024-05-15T11:37:51.273+0000] {processor.py:161} INFO - Started process (PID=1510) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:37:51.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:37:51.276+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:51.275+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:37:51.724+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:37:51.723+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:37:51.724+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:37:51.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.471 seconds
+[2024-05-15T11:38:22.658+0000] {processor.py:161} INFO - Started process (PID=1573) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:38:22.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:38:22.661+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:22.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:38:23.572+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:23.571+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/tansform_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tansform_data.py", line 7, in <module>
+    from db_init import Database
+  File "/opt/airflow/dags/db_init.py", line 9
+    def __init__(self):
+                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-05-15T11:38:23.573+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:38:23.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.967 seconds
+[2024-05-15T11:38:54.065+0000] {processor.py:161} INFO - Started process (PID=1635) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:38:54.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:38:54.068+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:54.067+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:38:57.253+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:38:57.873+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:57.873+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:38:57.955+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:38:57.954+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:33:00+00:00, run_after=2024-05-15 11:36:00+00:00
+[2024-05-15T11:38:58.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 4.035 seconds
+[2024-05-15T11:39:28.848+0000] {processor.py:161} INFO - Started process (PID=1693) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:39:28.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:39:28.850+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:28.850+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:39:29.280+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:39:29.296+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:29.295+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:39:29.318+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:29.318+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:39:00+00:00, run_after=2024-05-15 11:42:00+00:00
+[2024-05-15T11:39:29.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.492 seconds
+[2024-05-15T11:39:59.627+0000] {processor.py:161} INFO - Started process (PID=1755) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:39:59.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:39:59.629+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:39:59.629+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:40:00.018+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:40:00.033+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:00.033+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:40:00.055+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:00.055+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:39:00+00:00, run_after=2024-05-15 11:42:00+00:00
+[2024-05-15T11:40:00.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.462 seconds
+[2024-05-15T11:40:30.746+0000] {processor.py:161} INFO - Started process (PID=1815) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:40:30.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:40:30.749+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:30.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:40:31.176+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:40:31.191+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:31.191+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:40:31.214+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:40:31.213+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:39:00+00:00, run_after=2024-05-15 11:42:00+00:00
+[2024-05-15T11:40:31.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.490 seconds
+[2024-05-15T11:41:02.175+0000] {processor.py:161} INFO - Started process (PID=1878) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:41:02.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:41:02.177+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:02.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:41:02.569+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:41:02.585+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:02.584+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:41:02.606+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:02.606+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:39:00+00:00, run_after=2024-05-15 11:42:00+00:00
+[2024-05-15T11:41:02.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.454 seconds
+[2024-05-15T11:41:32.752+0000] {processor.py:161} INFO - Started process (PID=1937) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:41:32.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:41:32.755+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:32.754+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:41:33.328+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:41:33.343+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:33.343+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:41:33.365+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:41:33.365+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:39:00+00:00, run_after=2024-05-15 11:42:00+00:00
+[2024-05-15T11:41:33.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.641 seconds
+[2024-05-15T11:42:03.639+0000] {processor.py:161} INFO - Started process (PID=1999) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:42:03.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:42:03.640+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:03.640+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:42:04.050+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:42:04.082+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:04.082+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:42:04.117+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:04.117+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:42:00+00:00, run_after=2024-05-15 11:45:00+00:00
+[2024-05-15T11:42:04.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.506 seconds
+[2024-05-15T11:42:34.260+0000] {processor.py:161} INFO - Started process (PID=2057) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:42:34.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:42:34.262+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:34.261+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:42:34.741+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:42:34.757+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:34.756+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:42:34.780+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:42:34.780+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:42:00+00:00, run_after=2024-05-15 11:45:00+00:00
+[2024-05-15T11:42:34.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.542 seconds
+[2024-05-15T11:43:05.755+0000] {processor.py:161} INFO - Started process (PID=2121) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:43:05.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:43:05.758+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:05.757+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:43:06.380+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:43:06.401+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:06.401+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:43:06.435+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:06.435+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:42:00+00:00, run_after=2024-05-15 11:45:00+00:00
+[2024-05-15T11:43:06.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.708 seconds
+[2024-05-15T11:43:36.574+0000] {processor.py:161} INFO - Started process (PID=2180) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:43:36.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:43:36.577+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:36.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:43:37.437+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:43:37.511+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:37.510+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:43:37.634+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:43:37.634+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:42:00+00:00, run_after=2024-05-15 11:45:00+00:00
+[2024-05-15T11:43:37.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.126 seconds
+[2024-05-15T11:44:07.934+0000] {processor.py:161} INFO - Started process (PID=2243) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:44:07.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T11:44:07.936+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:44:07.936+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:44:08.323+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T11:44:08.338+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:44:08.338+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T11:44:08.360+0000] {logging_mixin.py:188} INFO - [2024-05-15T11:44:08.359+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 11:42:00+00:00, run_after=2024-05-15 11:45:00+00:00
+[2024-05-15T11:44:08.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.447 seconds
+[2024-05-15T19:53:02.843+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:53:02.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:53:02.850+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:02.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:53:03.874+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:53:03.948+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:03.948+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:53:04.000+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:04.000+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:51:00+00:00, run_after=2024-05-15 19:54:00+00:00
+[2024-05-15T19:53:04.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.199 seconds
+[2024-05-15T19:53:34.250+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:53:34.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:53:34.254+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:34.254+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:53:34.559+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:53:34.582+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:34.581+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:53:34.610+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:53:34.610+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:51:00+00:00, run_after=2024-05-15 19:54:00+00:00
+[2024-05-15T19:53:34.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.387 seconds
+[2024-05-15T19:54:05.487+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:54:05.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:54:05.492+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:05.491+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:54:06.418+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:54:06.484+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:06.483+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:54:06.548+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:06.547+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:54:00+00:00, run_after=2024-05-15 19:57:00+00:00
+[2024-05-15T19:54:06.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.147 seconds
+[2024-05-15T19:54:36.666+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:54:36.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:54:36.670+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:36.670+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:54:37.143+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:54:37.191+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:37.191+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:54:37.283+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:54:37.282+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:54:00+00:00, run_after=2024-05-15 19:57:00+00:00
+[2024-05-15T19:54:37.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.679 seconds
+[2024-05-15T19:55:07.639+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:55:07.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:55:07.642+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:07.642+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:55:07.936+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:55:07.958+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:07.957+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:55:07.985+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:07.985+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:54:00+00:00, run_after=2024-05-15 19:57:00+00:00
+[2024-05-15T19:55:08.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.372 seconds
+[2024-05-15T19:55:38.225+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:55:38.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:55:38.230+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:38.230+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:55:38.704+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:55:38.734+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:38.733+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:55:38.775+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:55:38.775+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:54:00+00:00, run_after=2024-05-15 19:57:00+00:00
+[2024-05-15T19:55:38.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.586 seconds
+[2024-05-15T19:56:08.921+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:56:08.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:56:08.932+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:08.932+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:56:10.104+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:56:10.197+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:10.196+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:56:10.331+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:10.330+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:54:00+00:00, run_after=2024-05-15 19:57:00+00:00
+[2024-05-15T19:56:10.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.557 seconds
+[2024-05-15T19:56:40.619+0000] {processor.py:161} INFO - Started process (PID=459) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:56:40.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:56:40.622+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:40.622+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:56:41.112+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:56:41.280+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:41.279+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:56:41.303+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:56:41.303+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:54:00+00:00, run_after=2024-05-15 19:57:00+00:00
+[2024-05-15T19:56:41.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.710 seconds
+[2024-05-15T19:57:11.640+0000] {processor.py:161} INFO - Started process (PID=520) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:57:11.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:57:11.644+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:11.644+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:57:12.396+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:57:12.413+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:12.413+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:57:12.439+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:12.439+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:57:00+00:00, run_after=2024-05-15 20:00:00+00:00
+[2024-05-15T19:57:12.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.825 seconds
+[2024-05-15T19:57:42.657+0000] {processor.py:161} INFO - Started process (PID=583) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:57:42.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:57:42.681+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:42.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:57:44.179+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:57:44.275+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:44.274+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:57:44.421+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:57:44.421+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:57:00+00:00, run_after=2024-05-15 20:00:00+00:00
+[2024-05-15T19:57:44.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.881 seconds
+[2024-05-15T19:58:15.497+0000] {processor.py:161} INFO - Started process (PID=647) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:58:15.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:58:15.501+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:15.500+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:58:17.287+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:58:17.374+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:17.365+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:58:17.512+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:17.511+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:57:00+00:00, run_after=2024-05-15 20:00:00+00:00
+[2024-05-15T19:58:17.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 2.111 seconds
+[2024-05-15T19:58:48.614+0000] {processor.py:161} INFO - Started process (PID=713) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:58:48.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:58:48.619+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:48.619+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:58:49.325+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:58:49.347+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:49.347+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:58:49.385+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:58:49.385+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:57:00+00:00, run_after=2024-05-15 20:00:00+00:00
+[2024-05-15T19:58:49.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.805 seconds
+[2024-05-15T19:59:19.796+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:59:19.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:59:19.801+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:19.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:59:20.522+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:59:20.559+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:20.559+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:59:20.637+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:20.637+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:57:00+00:00, run_after=2024-05-15 20:00:00+00:00
+[2024-05-15T19:59:20.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.878 seconds
+[2024-05-15T19:59:51.653+0000] {processor.py:161} INFO - Started process (PID=846) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:59:51.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T19:59:51.674+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:51.673+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:59:53.058+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T19:59:53.127+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:53.126+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T19:59:53.177+0000] {logging_mixin.py:188} INFO - [2024-05-15T19:59:53.177+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 19:57:00+00:00, run_after=2024-05-15 20:00:00+00:00
+[2024-05-15T19:59:53.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.600 seconds
+[2024-05-15T20:00:23.649+0000] {processor.py:161} INFO - Started process (PID=910) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:00:23.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:00:23.653+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:23.653+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:00:24.405+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:00:24.431+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:24.430+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:00:24.470+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:24.469+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:00:24.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.853 seconds
+[2024-05-15T20:00:54.537+0000] {processor.py:161} INFO - Started process (PID=976) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:00:54.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:00:54.541+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:54.541+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:00:55.017+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:00:55.035+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:55.035+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:00:55.061+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:00:55.060+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:00:55.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.549 seconds
+[2024-05-15T20:01:25.196+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:01:25.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:01:25.201+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:25.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:01:25.932+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:01:25.955+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:25.955+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:01:25.995+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:25.995+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:01:26.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.837 seconds
+[2024-05-15T20:01:56.555+0000] {processor.py:161} INFO - Started process (PID=1098) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:01:56.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:01:56.560+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:56.560+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:01:57.285+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:01:57.309+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:57.309+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:01:57.349+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:01:57.348+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:01:57.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.826 seconds
+[2024-05-15T20:02:28.056+0000] {processor.py:161} INFO - Started process (PID=1161) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:02:28.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:02:28.061+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:28.060+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:02:28.854+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:02:28.879+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:28.878+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:02:28.918+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:28.917+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:02:28.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.896 seconds
+[2024-05-15T20:02:59.050+0000] {processor.py:161} INFO - Started process (PID=1226) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:02:59.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:02:59.055+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:59.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:02:59.784+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:02:59.808+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:59.807+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:02:59.846+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:02:59.846+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:02:59.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.846 seconds
+[2024-05-15T20:03:30.675+0000] {processor.py:161} INFO - Started process (PID=1292) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:03:30.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:03:30.679+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:30.679+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:03:31.137+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:03:31.155+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:31.154+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:03:31.179+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:03:31.179+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:03:31.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.530 seconds
+[2024-05-15T20:04:02.225+0000] {processor.py:161} INFO - Started process (PID=1352) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:02.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:04:02.246+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:02.245+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:03.745+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:03.771+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:03.770+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:04:03.824+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:03.824+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:04:03.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.659 seconds
+[2024-05-15T20:04:34.174+0000] {processor.py:161} INFO - Started process (PID=1416) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:34.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:04:34.180+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:34.179+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:35.057+0000] {processor.py:840} INFO - DAG(s) 'ademe_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:35.088+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:35.087+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:04:35.128+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:35.128+0000] {dag.py:3834} INFO - Setting next_dagrun for ademe_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:04:35.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.023 seconds
+[2024-05-15T20:04:54.474+0000] {processor.py:161} INFO - Started process (PID=1454) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:54.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:04:54.478+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:54.478+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:55.040+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:04:55.139+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:55.138+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:evalmlops_transform_data
+[2024-05-15T20:04:55.151+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:55.151+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:evalmlops_transform_data
+[2024-05-15T20:04:55.160+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:55.160+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:evalmlops_transform_data
+[2024-05-15T20:04:55.161+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:55.160+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:04:55.174+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:55.173+0000] {dag.py:3069} INFO - Creating ORM DAG for evalmlops_transform_data
+[2024-05-15T20:04:55.192+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:04:55.191+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:04:55.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.744 seconds
+[2024-05-15T20:05:25.329+0000] {processor.py:161} INFO - Started process (PID=1516) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:05:25.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:05:25.332+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:25.331+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:05:25.924+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:05:25.941+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:25.940+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:05:25.964+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:25.964+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:05:25.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.660 seconds
+[2024-05-15T20:05:56.131+0000] {processor.py:161} INFO - Started process (PID=1577) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:05:56.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:05:56.134+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:56.134+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:05:56.804+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:05:56.822+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:56.822+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:05:56.855+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:05:56.854+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:00:00+00:00, run_after=2024-05-15 20:03:00+00:00
+[2024-05-15T20:05:56.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.752 seconds
+[2024-05-15T20:06:26.915+0000] {processor.py:161} INFO - Started process (PID=1643) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:06:26.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:06:26.918+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:26.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:06:27.466+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:06:27.484+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:27.484+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:06:27.508+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:27.508+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:06:27.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.623 seconds
+[2024-05-15T20:06:57.631+0000] {processor.py:161} INFO - Started process (PID=1702) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:06:57.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:06:57.673+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:57.634+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:06:58.888+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:06:58.913+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:58.912+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:06:58.950+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:06:58.950+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:06:59.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.430 seconds
+[2024-05-15T20:07:30.074+0000] {processor.py:161} INFO - Started process (PID=1761) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:07:30.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:07:30.077+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:07:30.077+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:07:31.689+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:07:31.760+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:07:31.759+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:07:31.855+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:07:31.854+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:07:31.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.867 seconds
+[2024-05-15T20:08:02.271+0000] {processor.py:161} INFO - Started process (PID=1822) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:08:02.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:08:02.280+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:02.279+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:08:03.396+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:08:03.431+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:03.431+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:08:03.483+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:03.482+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:08:03.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.272 seconds
+[2024-05-15T20:08:33.693+0000] {processor.py:161} INFO - Started process (PID=1886) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:08:33.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:08:33.696+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:33.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:08:34.735+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:08:34.789+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:34.788+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:08:34.970+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:08:34.969+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:03:00+00:00, run_after=2024-05-15 20:06:00+00:00
+[2024-05-15T20:08:35.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.397 seconds
+[2024-05-15T20:09:05.975+0000] {processor.py:161} INFO - Started process (PID=1949) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:09:05.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:09:05.980+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:05.980+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:09:06.682+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:09:06.707+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:06.707+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:09:06.743+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:06.743+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:06:00+00:00, run_after=2024-05-15 20:09:00+00:00
+[2024-05-15T20:09:06.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.807 seconds
+[2024-05-15T20:09:37.727+0000] {processor.py:161} INFO - Started process (PID=2015) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:09:37.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:09:37.730+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:37.729+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:09:38.386+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:09:38.420+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:38.420+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:09:38.460+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:09:38.460+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:09:00+00:00, run_after=2024-05-15 20:12:00+00:00
+[2024-05-15T20:09:38.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 0.780 seconds
+[2024-05-15T20:10:08.586+0000] {processor.py:161} INFO - Started process (PID=2077) to work on /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:10:08.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tansform_data.py for tasks to queue
+[2024-05-15T20:10:08.595+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:08.594+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:10:09.556+0000] {processor.py:840} INFO - DAG(s) 'evalmlops_transform_data' retrieved from /opt/airflow/dags/tansform_data.py
+[2024-05-15T20:10:09.579+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:09.579+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-15T20:10:09.616+0000] {logging_mixin.py:188} INFO - [2024-05-15T20:10:09.615+0000] {dag.py:3834} INFO - Setting next_dagrun for evalmlops_transform_data to 2024-05-15 20:09:00+00:00, run_after=2024-05-15 20:12:00+00:00
+[2024-05-15T20:10:09.679+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tansform_data.py took 1.108 seconds
